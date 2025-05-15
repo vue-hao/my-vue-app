@@ -1,11 +1,5 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-html/vue",
-    "stylelint-config-standard-scss",
-    "stylelint-config-recommended-vue/scss",
-    "stylelint-config-recess-order"
-  ],
+  "extends": ["stylelint-config-standard", "stylelint-config-html/vue", "stylelint-config-standard-scss", "stylelint-config-recommended-vue/scss", "stylelint-config-recess-order"],
   "overrides": [
     {
       "files": ["**/*.(scss|css|vue|html)"],
@@ -16,16 +10,9 @@
       "customSyntax": "postcss-html"
     }
   ],
-  "ignoreFiles": [
-    "**/*.js",
-    "**/*.jsx",
-    "**/*.tsx",
-    "**/*.ts",
-    "**/*.json",
-    "**/*.md",
-    "**/*.yaml"
-  ],
+  "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts", "**/*.json", "**/*.md", "**/*.yaml"],
   "rules": {
+    "scss/load-no-partial-leading-underscore": null,
     "value-keyword-case": null,
     "no-descending-specificity": null,
     "function-url-quotes": "always",
