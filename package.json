@@ -17,7 +17,7 @@
     "**/*.{html,vue,ts,js,json,md,css,scss}": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "axios": "^1.9.0",
+    "axios": "^1.13.2",
     "pinia": "^3.0.2",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
